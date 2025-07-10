@@ -23,7 +23,7 @@ body{
 
 }
 main{
-    width: 400px;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
