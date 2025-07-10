@@ -17,6 +17,7 @@ function renderTodoList() {
         render += `
             <li class="todo-item item${i}">
                 <span class="todo-text">${todoList[i].text}</span>
+                <input type="checkbox" class="completed${i} check" / >
                 <button class="delete-button" onclick="deleteTodo(${i})">Delete</button>
             </li>
         `;
