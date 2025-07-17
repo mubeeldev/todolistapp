@@ -84,16 +84,8 @@ form{
 #todo-list{
     width: 100%;
     max-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
-    text-decoration: none;
-    overflow: auto;
-    border: 1px solid var(--primary-color);
-    border-radius: 10px;
-    /* padding: 10px; */
+    overflow-y: auto;
 
        &:hover{
         background-color: rgba(128, 128, 128, 0.445);
@@ -113,15 +105,6 @@ form{
     /* border-bottom: 1px solid var(--primary-color); */
 
  
-
-    /* span{
-        font-size: 25px;
-        font-weight: 700;
-        color: var(--third-color);
-        font-style: italic;
-        letter-spacing: 2px; */
-        /* padding-left: 1rem; */
-
     }
     button{
         background-color: var(--primary-color);
